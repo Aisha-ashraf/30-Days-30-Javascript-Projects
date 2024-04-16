@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins' ,sans-serif;
+    margin: 0;
+   min-height: 100vh;
+  
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+   background-size: cover;
+   background-position: center center;
+    background-image: url('https://images.unsplash.com/photo-1517299321609-52687d1bc55a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.countdown-container{
+    display: flex;
+
+}
+h1{
+  font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+ 
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-e1{
+    text-align: center;
+}
+.countdown-e1 span{
+    font-size: 1.5rem;
+}
